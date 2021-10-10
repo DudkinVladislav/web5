@@ -3,7 +3,7 @@ const chek =/^-+\d+$|\d+$/
 let num1 = document.getElementsByName("number1");
 let num2 = document.getElementsByName("number2");
 if (check.test(num1[0].value) == false|| check.test(num2[0].value) == false) {
-    document.getElementById('out').innerHTML='Введённые данные неверны.';
+    document.getElementById('out').innerHTML='Р’РІРµРґС‘РЅРЅС‹Рµ РґР°РЅРЅС‹Рµ РЅРµРІРµСЂРЅС‹.';
     }
     else{
         let num3 = document.getElementById("out");
