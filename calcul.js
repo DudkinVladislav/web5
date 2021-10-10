@@ -5,6 +5,7 @@ function proizvedenie() {
 	
     if (chek.test(num1[0].value) == false|| chek.test(num2[0].value) == false) {
         document.getElementById('out').innerHTML='Введённые данные неверны.';
+	return false;
     }
     else{
         let num3 = document.getElementById("out");
