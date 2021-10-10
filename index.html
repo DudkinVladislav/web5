@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Задание 4</title>
+    <title>Задание 5</title>
     <link rel="stylesheet" href="style.css"/>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -31,6 +31,7 @@
 		<li><a href="#anchor">Задание 1</a></li>
 		<li><a href="#table">Таблица</a></li>
 		<li><a href="#forma">Форма</a></li>
+		<li><a href="calculator">Калькулятор</a></li>
 	</ul>
 	<div>
 </nav>
@@ -185,9 +186,6 @@
 </div>
 </forma>
 <tablu>
-	<div class "container-fluid">
-	<div class="row d-flex mx-sm-m3">
-        <div class="col-md-6 order-2 px-sm-3">
 	<h1 id="table">Таблица</h1>
 	<table>
 	   <tbody>
@@ -227,6 +225,27 @@
 </div>
 </tablu>
     </div>
+<div class "container-fluid">
+   <div class="row d-flex mx-sm-m3">
+        <div class="col-md-6 order-2 px-sm-3">
+	<h1 id="calculator">Калькулятор</h1>
+	<form>
+	Цена<input name="field1" type="text">
+	Количество<input name="field2" type="text">
+	<button id="button1" onclick="return click1();">OK
+	</button>
+	</form>
+	<p id="out">Ваша стоимость</p>
+	</div>
+	<div class="col-md-3 order-1 px-sm-3">
+	</div>
+	<div class="col-md-3 order-3 px-sm-3">
+	</div>
+   </div>
+</div>
+
+		
+
 
 	
 	<footer>
