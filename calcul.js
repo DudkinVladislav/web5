@@ -13,8 +13,10 @@ if (check.test(num1[0].value) == false|| check.test(num2[0].value) == false) {
         num3.innerHTML = num1[0].value * num2[0].value;
 	return false;   
 	}
-	window.addEventListener('DOMContentLoaded',function(event){
+}
+	window.addEventListener('DOMContentLoaded',function(event)
+		{
 	  console.log("DOM finaly loaded and parsed");
 	  let knopka = document.getElementById("my-button");
   		knopka.addEventListener("click", proizvedenie);
-}
+		})
