@@ -1,5 +1,5 @@
 function proizvedenie() {
-    const chek =/^-+\d+$|\d+$/
+    const chek =/^\d+$/
     let num1 = document.getElementsByName("number1");
     let num2 = document.getElementsByName("number2");
 	
